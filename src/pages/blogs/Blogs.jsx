@@ -3,7 +3,34 @@ import BlogPreview from "../../components/BlogPreview/BlogPreview";
 import "./Blogs.css"
 
 const Blogs = () => {
-    const _static_array = [{title: 'When is the best time to do watering?', content_preview: 'Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros. Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus, laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas...'}]
+    const _static_array = [
+        {
+            id: 1,
+            title: 'When is the best time to do watering?', 
+            content_preview: 'Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros. Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus, laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas...'
+        },
+        {
+            id: 2,
+            title: 'When is the best time to do watering?', 
+            content_preview: 'Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros. Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus, laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas...'
+        },
+        {
+            id: 3,
+            title: 'When is the best time to do watering?', 
+            content_preview: 'Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros. Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus, laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas...'
+        },
+        {
+            id: 4,
+            title: 'When is the best time to do watering?', 
+            content_preview: 'Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros. Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus, laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas...'
+        },
+        {
+            id: 5,
+            title: 'When is the best time to do watering?', 
+            content_preview: 'Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros. Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus, laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas...'
+        }
+    
+    ]
     return <main> <div className="blogs-wrapper">
         <h1 style={{marginBotton: '45px'}}>Blogs with tips</h1>
         <div className="blogs-search">

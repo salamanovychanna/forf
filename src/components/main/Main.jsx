@@ -11,11 +11,21 @@ export function Main() {
                 <div className="info-box">
                     <div className="info-box__header">Save your effort</div>
                     <div className="info-box__text">Easily approach to find information about humanity, precipitation, temperature, cloudiness. </div>
-
+                    <div className="info-box__images">
+                        <img className="info-box__image--medium" src="https://www.davidhechler.com/wp-content/uploads/2016/07/500x500-dummy-image.jpg"/>
+                        <img className="info-box__image--medium" src="https://www.davidhechler.com/wp-content/uploads/2016/07/500x500-dummy-image.jpg"/>
+                    </div>
                 </div>
-                <div className="info-box">
+                <div className="info-box ai-box">
                     <div className="info-box__header">Ask AI for advice</div>
-                    <div className="info-box__text">Need some help to understand the data better? Ask Mr. Farmer to break down information concerned you  </div>
+                    <div className="info-box__text">Need some help to understand the data better? Ask Mr. Farmer to
+                        break down information concerned you
+                    </div>
+                    <div className="info-box__images">
+                        <img className="info-box__image--large"
+                             src="https://www.chapeau-melon.fr/wp-content/uploads/2017/09/800x400.png"/>
+                    </div>
+                    <div className="Blue-sphere"></div>
                 </div>
                 <div className="info-box">
                     <div className="Earth--with-text">

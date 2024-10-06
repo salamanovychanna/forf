@@ -1,5 +1,9 @@
 import "./Main.css";
 import {EarthContainer} from "../../components/Earth/EarthContainer";
+import PhotoCards from "../../assets/get_info_easily.png"
+import Statistics from "../../assets/get_info_easily_2.jpg"
+import PhotoAI from "../../assets/askFarmerphoto.jpg"
+
 
 export default function Main() {
     return (
@@ -12,8 +16,8 @@ export default function Main() {
                     <div className="info-box__header">Save your effort</div>
                     <div className="info-box__text">Easily approach to find information about humanity, precipitation, temperature, cloudiness. </div>
                     <div className="info-box__images info-box__images--with-lines">
-                        <img className="info-box__image--medium"
-                             src="https://www.davidhechler.com/wp-content/uploads/2016/07/500x500-dummy-image.jpg"/>
+                        <img style={{objectFit:"cover", border: 'solid 4px #0032A0'}} className="info-box__image--medium"
+                             src={PhotoCards}/>
                         <div className="Line">
                             <svg width="504" height="377" viewBox="0 0 504 377" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -57,8 +61,8 @@ export default function Main() {
                             </svg>
                         </div>
 
-                        <img className="info-box__image--medium"
-                             src="https://www.davidhechler.com/wp-content/uploads/2016/07/500x500-dummy-image.jpg"/>
+                        <img style={{objectFit:"cover", border: 'solid 4px #0032A0'}}  className="info-box__image--medium"
+                             src={Statistics}/>
                     </div>
                 </div>
                 <div className="info-box ai-box">
@@ -67,8 +71,8 @@ export default function Main() {
                         break down information concerned you
                     </div>
                     <div className="info-box__images">
-                        <img className="info-box__image--large"
-                             src="https://www.chapeau-melon.fr/wp-content/uploads/2017/09/800x400.png"/>
+                        <img style={{objectFit:"cover"}} className="info-box__image--large"
+                             src={PhotoAI}/>
                     </div>
                     <div className="Blue-sphere"></div>
                 </div>

@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@nextui-org/react": "^2.4.8",
+    "@nextui-org/system": "^2.2.6",
     "@react-three/drei": "^9.114.0",
     "@react-three/fiber": "^8.17.9",
     "@react-three/rapier": "^1.5.0",

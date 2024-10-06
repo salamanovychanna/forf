@@ -1,4 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap');
+
 body { 
     background-color: black;
+}
+
+* {
     color:white;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Orbitron", sans-serif;
+
+}
+
+
+input {
+    background-color: #393939;
+    border: none;
+    padding: 17px 47px;
+    border-radius: 30px;
+
+}
+
+*:focus {
+    outline: none;
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
 }

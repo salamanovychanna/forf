@@ -2,7 +2,7 @@ import "./Main.css";
 import {EarthContainer} from "../../components/Earth/EarthContainer";
 import PhotoCards from "../../assets/get_info_easily.png"
 import Statistics from "../../assets/get_info_easily_2.jpg"
-import PhotoAI from "../../assets/askFarmerphoto.jpg"
+import PhotoAI from "../../assets/AI.jpg"
 
 
 export default function Main() {

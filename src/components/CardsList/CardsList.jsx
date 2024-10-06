@@ -8,37 +8,37 @@ export function CardsList() {
 
     const location = useLocation();
     const isNestedRoute = location.pathname.includes('/dashboard/');
-
+    
 
     const [cards, setCards] = useState([
         {name: 'Humidity',
-        title1: 'Test',
-        title2: 'Test',
-        title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',}
+        title1: '75% Relative Humidity',
+        title2: 'Dew Point: 17°C',
+        title3: 'Absolute Humidity: 12.5 g/m³',},
+        {name: 'Vegetation Index (NDVI)',
+            title1: 'Current NDVI Value: 0.68 (indicating healthy vegetation)',
+            title2: 'NDVI Trend: Increasing (compared to last month)',
+            title3: 'Vegetation Type: Crops (corn, wheat)',},
+        {name: 'Flood Risk',
+            title1: 'Flood Warning Level: Moderate',
+            title2: 'Flood Gauge Level 1.2m',
+            title3: 'Forecast Rainfall: 50 mm in next 24 hours',},
+        {name: 'Drought Risk',
+            title1: 'Drought Risk Level: Moderate',
+            title2: 'Soil Moisture Deficit: 12%',
+            title3: 'Drought Severity Index: 0.5 (on a scale from 0 to 1)',},
+        {name: 'Precipitation',
+            title1: 'Total Precipitation (last 24h): 20 mm',
+            title2: 'Forecasted Precipitation: 15 mm',
+            title3: 'Rainfall Intensity: Moderate',},
+        {name: 'Wind Speed',
+            title1: 'Current Wind Speed: 15 km/h',
+            title2: 'Max Wind Gust: 25 km/h',
+            title3: 'Wind Direction: NE',},
+        {name: 'Frost Risk',
+            title1: 'Frost Advisory: No',
+            title2: 'Expected Low Temperature: 5°C',
+            title3: 'Frost Probability: 10%',}
     ]);
 
     const list = cards.map((card) => {

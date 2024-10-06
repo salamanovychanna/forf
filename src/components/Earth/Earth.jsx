@@ -9,21 +9,21 @@ import EarthCloudsMap from "./сlouds.jpg";
 
 import { TextureLoader } from "three";
 
-export function Earth () {
-    const [colorMap, normalMap, specularMap, cloudsMap] = useLoader(
-        TextureLoader,
-        [EarthDayMap, EarthNormalMap, EarthSpecularMap, EarthCloudsMap]
-    );
+export function Earth() {
+  const [colorMap, normalMap, specularMap, cloudsMap] = useLoader(
+    TextureLoader,
+    [EarthDayMap, EarthNormalMap, EarthSpecularMap, EarthCloudsMap]
+  );
 
-    const earthRef = useRef();
-    const cloudsRef = useRef();
+  const earthRef = useRef();
+  const cloudsRef = useRef();
 
-    useFrame(({ clock }) => {
-        const elapsedTime = clock.getElapsedTime();
+  useFrame(({ clock }) => {
+    const elapsedTime = clock.getElapsedTime();
 
-        earthRef.current.rotation.y = elapsedTime / 6;
-        cloudsRef.current.rotation.y = elapsedTime / 6;
-    });
+    earthRef.current.rotation.y = elapsedTime / 6;
+    cloudsRef.current.rotation.y = elapsedTime / 6;
+  });
 
     return (
         <>

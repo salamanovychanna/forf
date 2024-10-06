@@ -43,7 +43,7 @@ const Blogs = () => {
             return <BlogPreview title={title} content_preview={content_preview}/>
         })}
         </div>  
-        <Outlet />
+        <Outlet/>
     </main>
 }
 

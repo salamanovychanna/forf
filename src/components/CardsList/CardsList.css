@@ -27,6 +27,8 @@
     font-weight: 400;
     line-height: 20.42px;
     text-align: left;
+    position: relative;
+    z-index: 2;
 }
 
 .CardsTitle--right {

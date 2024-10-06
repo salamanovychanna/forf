@@ -130,7 +130,7 @@ body {
   position: relative;
 }
 
-.Blue-sphere {
+.ai-box .Blue-sphere {
   position: absolute;
   width: 326px;
   height: 326px;

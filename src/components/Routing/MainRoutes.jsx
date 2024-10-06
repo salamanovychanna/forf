@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Main from '../../pages/main/Main'
 import Blogs from '../../pages/blogs/Blogs'
 import RegenerativeAgriculturalPractices from "../../static_data/blogs/RegenerativeAgriculturalPractices";
+import Chat from "../Chat/Chat";
 
 const MainRoutes = () => {
     return (

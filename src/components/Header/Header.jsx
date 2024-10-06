@@ -3,8 +3,8 @@ import FullLogo from "../FullLogo/FullLogo";
 
 const Header = () => {
     return (
-        <header style={{position: "relative",overflow:'visible', height: '100px', display: 'flex', alignItems: 'center', maxwidth: '1280px', padding: '0px 160px' }}>
-            <div style={{zIndex:'0',position: 'absolute', top: '10px', left: '40px'}}><svg width="568" height="431" viewBox="0 0 568 431" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <header style={{zIndex:'2',position: "relative",overflow:'visible', height: '100px', display: 'flex', alignItems: 'center', maxwidth: '1280px', padding: '0px 160px' }}>
+            <div style={{zIndex:'1',position: 'absolute', top: '10px', left: '40px'}}><svg width="568" height="431" viewBox="0 0 568 431" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_f_27_297)">
                     <rect x="42" y="-95" width="326" height="326" rx="163" fill="#0032A0" />
                 </g>

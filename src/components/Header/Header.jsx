@@ -15,7 +15,9 @@ const Header = () => {
             padding: '0px 160px'
         }}>
             <div className="Blue-sphere"></div>
-            <div className="LogoHeader" style={{marginRight: '230px'}}><FullLogo/></div>
+            <Link  style={{zIndex:2}} to={"/"}>
+                <div className="LogoHeader" style={{marginRight: '230px'}}><FullLogo/></div>
+            </Link>
             <nav style={{display: 'flex', width: '100%', justifyContent: 'space-between'}}>
                 <Link style={{textDecoration: "none"}} to={"/dashboard"}> <span>dashboard</span></Link>
                 <Link style={{textDecoration: "none"}} to={"/ai-chat"}> <span>ask AI</span></Link>

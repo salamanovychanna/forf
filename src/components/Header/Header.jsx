@@ -19,7 +19,7 @@ const Header = () => {
             <div style={{ marginRight: '230px' }}><FullLogo /></div>
             <nav style={{ display: 'flex', width: '100%', justifyContent: 'space-between' }}>
                 <Link style={{ textDecoration: "none" }} to={"/dashboard"}> <span>dashboard</span></Link>
-                <Link style={{ textDecoration: "none" }} to={"/"}> <span>ask AI</span></Link>
+                <Link style={{ textDecoration: "none" }} to={"/ai-chat"}> <span>ask AI</span></Link>
                 <Link style={{ textDecoration: "none" }} to={"/blogs"}><span>blog</span></Link>
                 <Link style={{ textDecoration: "none" }} to={"/dashboard"}><button>go to dashboard</button></Link>
             </nav>

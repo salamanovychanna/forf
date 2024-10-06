@@ -50,5 +50,11 @@ export const  mock = [
         "text1": "Frost Advisory: No",
         "text2": "Expected Low Temperature: 5°C",
         "text3": "Frost Probability: 10%"
+    },
+    {
+        "title": "Humadity",
+        "text1": "75% Relative Humidity",
+        "text2": "Dew Point: 17°C",
+        "text3": "Humidity Ratio: 9.5 g/kg"
     }
 ]

@@ -10,22 +10,22 @@ const Blogs = () => {
     const _static_array = [
         {
             id: 1,
-            title: 'When is the best time to do watering?', 
-            content_preview: 'Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros. Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus, laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas...'
+            title: 'Regenerative Agriculture Practices For Soil Health', 
+            content_preview: 'Soil health is fundamental to sustainable agriculture, directly influencing crop productivity, ecosystem balance, and overall environmental quality. As global food demands rise, regenerative agriculture offers a holistic approach to farming that not only enhances soil health but also promotes biodiversity, carbon sequestration, and climate resilience. This article explores the core practices of regenerative agriculture that contribute to healthier soils...'
         },
         {
             id: 2,
-            title: 'When is the best time to do watering?', 
-            content_preview: 'Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros. Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus, laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas...'
+            title: 'When is the Best Time to Water?', 
+            content_preview: 'Watering is most effective in the early morning or late afternoon. During these times, temperatures are cooler, which reduces evaporation rates and allows plants to absorb moisture more effectively. Avoid watering during the hottest part of the day to maximize water efficiency and minimize stress on plants...'
         },
         {
             id: 3,
-            title: 'When is the best time to do watering?', 
-            content_preview: 'Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros. Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus, laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas...'
+            title: 'Drought Preparedness', 
+            content_preview: 'Droughts are increasingly frequent and severe due to climate change, impacting agriculture, water supply, and ecosystems worldwide. As these events become more common, it is crucial for communities, especially farmers, to adopt effective drought preparedness strategies. By planning ahead, we can mitigate the adverse effects of drought and enhance resilience....'
         },
         {
             id: 4,
-            title: 'When is the best time to do watering?', 
+            title: 'Temperature Management', 
             content_preview: 'Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros. Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus, laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas...'
         },
         {

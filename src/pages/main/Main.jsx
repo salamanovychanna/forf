@@ -14,7 +14,7 @@ export default function Main() {
             <div className="Main__info--boxes">
                 <div className="info-box">
                     <div className="info-box__header">Save your effort</div>
-                    <div className="info-box__text">Easily approach to find information about humanity, precipitation, temperature, cloudiness. </div>
+                    <div className="info-box__text">Easily approach to find information about humidity, precipitation, temperature, cloudiness. </div>
                     <div className="info-box__images info-box__images--with-lines">
                         <img style={{objectFit:"cover", border: 'solid 4px #0032A0'}} className="info-box__image--medium"
                              src={PhotoCards}/>
@@ -71,7 +71,7 @@ export default function Main() {
                         break down information concerned you
                     </div>
                     <div className="info-box__images">
-                        <img style={{objectFit:"cover"}} className="info-box__image--large"
+                        <img style={{objectFit:"cover", border: 'solid 4px #0032A0'}} className="info-box__image--large"
                              src={PhotoAI}/>
                     </div>
                     <div className="Blue-sphere"></div>
@@ -81,16 +81,14 @@ export default function Main() {
                         <div className="text">
                             <div className="info-box__header">Save our planet</div>
                             <div className="info-box__text">
-                                Our project is hugely influential towards our planet.Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Aliquam a lectus nibh. Proin vehicula nibh orci, vel
-                                commodo est ultrices nec. Donec in lectus tempor, dapibus lectus eget, tempor eros.
-                                Quisque eget dictum elit. Duis odio mi, pulvinar efficitur nulla in, viverra maximus
-                                neque. Donec vel augue porttitor, pharetra lacus vel, maximus massa. Pellentesque luctus
-                                turpis id enim scelerisque, vel posuere massa dignissim. Sed scelerisque velit lectus,
-                                laoreet tincidunt lorem blandit eget. Cras a egestas neque. Maecenas dui dui, facilisis
-                                non fringilla eget, dapibus quis odio. Etiam pretium venenatis nisl in mollis. Donec
-                                viverra placerat erat, et fringilla libero fringilla.
-                            </div>
+                            Our project is hugely influential towards our planet. By providing farmers with real-time weather and water data, we empower them to make informed decisions that not only enhance their agricultural practices but also promote sustainable land use. Access to accurate weather forecasts helps farmers plan planting and harvesting schedules, reducing the risk of crop failure due to unforeseen weather events.
+
+<p>Moreover, our water data enables farmers to optimize irrigation practices, conserving precious water resources and minimizing waste. This efficient water usage is critical in combating droughts and ensuring that we maintain healthy ecosystems. By promoting practices such as precision agriculture, our project encourages the use of data-driven techniques that reduce the need for chemical fertilizers and pesticides, leading to healthier soil and improved biodiversity.</p>
+<p>As farmers adopt these sustainable practices, they contribute to carbon sequestration, reducing greenhouse gas emissions and combating climate change. Additionally, by fostering resilient agricultural communities, our project helps ensure food security for future generations, ultimately supporting both local economies and global sustainability efforts. Together, we can cultivate a greener future, benefiting not just farmers but the entire planet.
+
+
+
+</p>                            </div>
                         </div>
                         <div className="planet-container">
                             <EarthContainer/>

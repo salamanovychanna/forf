@@ -15,7 +15,7 @@ body {
   color: white;
   display: flex;
   align-items: center;
-  background-size: contain;
+  background-size: cover;
   padding: 0 220px;
 }
 

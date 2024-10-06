@@ -2,8 +2,13 @@ import {useState} from "react";
 import './CardsList.css';
 import {Card} from "./Card/Card";
 import Modal from "../Modal/Modal"
+import { Outlet, useLocation } from "react-router-dom";
 
 export function CardsList() {
+
+    const location = useLocation();
+    const isNestedRoute = location.pathname.includes('/dashboard/');
+
 
     const [cards, setCards] = useState([
         {name: 'Humidity',
@@ -42,7 +47,7 @@ export function CardsList() {
 
     return (
         <div className="CardsListContainer">
-            <div className="CardsTitle">
+            {!isNestedRoute && <><div className="CardsTitle">
                 <div className="CardsTitle--left">
                     <svg width="26" height="37" viewBox="0 0 26 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -59,7 +64,9 @@ export function CardsList() {
             </div>
             <div className="CardsList">
                 {list}
-            </div>
+            </div></> }
+
+            <Outlet/>
         </div>
     )
 

@@ -1,11 +1,11 @@
-import React, {Suspense, useRef} from "react";
-import {Canvas, useFrame, useLoader} from "@react-three/fiber";
+import React, {useRef} from "react";
+import {useFrame, useLoader} from "@react-three/fiber";
 import * as THREE from "three";
 
-import EarthDayMap from "./8k_earth_daymap.jpg";
-import EarthNormalMap from "./8k_earth_normal_map.jpg";
-import EarthSpecularMap from "./8k_earth_specular_map.jpg";
-import EarthCloudsMap from "./8k_earth_clouds.jpg";
+import EarthDayMap from "./daymap.jpg";
+import EarthNormalMap from "./map.jpg";
+import EarthSpecularMap from "./spec.jpg";
+import EarthCloudsMap from "./сlouds.jpg";
 
 import { TextureLoader } from "three";
 
@@ -26,31 +26,29 @@ export function Earth () {
     });
 
     return (
-        <Canvas>
-            <Suspense fallback={null}>
-                <ambientLight intensity={5}/>
-                <pointLight color="#f6f3ea" position={[2, 0, 5]} intensity={1.2}/>
-                <mesh ref={cloudsRef} position={[0, 0, 3]}>
-                    <sphereGeometry args={[1.005, 32, 32]}/>
-                    <meshPhongMaterial
-                        map={cloudsMap}
-                        opacity={0.4}
-                        depthWrite={true}
-                        transparent={true}
-                        side={THREE.DoubleSide}
-                    />
-                </mesh>
-                <mesh ref={earthRef} position={[0, 0, 3]}>
-                    <sphereGeometry args={[1, 32, 32]}/>
-                    <meshPhongMaterial specularMap={specularMap}/>
-                    <meshStandardMaterial
-                        map={colorMap}
-                        normalMap={normalMap}
-                        metalness={0.4}
-                        roughness={0.7}
-                    />
-                </mesh>
-            </Suspense>
-        </Canvas>
-    )
+        <>
+            <ambientLight intensity={5}/>
+            <pointLight color="#f6f3ea" position={[2, 0, 5]} intensity={1.2}/>
+            <mesh ref={cloudsRef} position={[0, 0, 3]}>
+                <sphereGeometry args={[1.005, 32, 32]}/>
+                <meshPhongMaterial
+                    map={cloudsMap}
+                    opacity={0.4}
+                    depthWrite={true}
+                    transparent={true}
+                    side={THREE.DoubleSide}
+                />
+            </mesh>
+            <mesh ref={earthRef} position={[0, 0, 3]}>
+                <sphereGeometry args={[1, 32, 32]}/>
+                <meshPhongMaterial specularMap={specularMap}/>
+                <meshStandardMaterial
+                    map={colorMap}
+                    normalMap={normalMap}
+                    metalness={0.4}
+                    roughness={0.7}
+                />
+            </mesh>
+        </>
+)
 }

@@ -3,6 +3,7 @@ import './CardsList.css';
 import {Card} from "./Card/Card";
 import Modal from "../Modal/Modal"
 import { Outlet, useLocation } from "react-router-dom";
+import {mock} from "./mock";
 
 export function CardsList() {
 
@@ -10,39 +11,10 @@ export function CardsList() {
     const isNestedRoute = location.pathname.includes('/dashboard/');
 
 
-    const [cards, setCards] = useState([
-        {name: 'Humidity',
-        title1: 'Test',
-        title2: 'Test',
-        title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',},
-        {name: 'Humidity',
-            title1: 'Test',
-            title2: 'Test',
-            title3: 'Test',}
-    ]);
+    const [cards, setCards] = useState(mock);
 
     const list = cards.map((card) => {
-       return <Card name={card.name} title1={card.title1} title2={card.title2} title3={card.title3}/>
+       return <Card title={card.title} text1={card.text1 || ""} text2={card.text2 || ""} text3={card.text3 || ""} text4={card.text4} />
     });
 
     return (

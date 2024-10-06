@@ -1,0 +1,10 @@
+.blogs-search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.blogs-wrapper {
+    max-width: 1080px;
+    width: 100%;
+}

@@ -1,7 +1,7 @@
 import "./Main.css";
 import {EarthContainer} from "../Earth/EarthContainer";
 
-export function Main() {
+export default function Main() {
     return (
         <div className="Main">
             <div className="Main__slider">

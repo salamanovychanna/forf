@@ -5,6 +5,7 @@ import Blogs from '../../pages/blogs/Blogs'
 import RegenerativeAgriculturalPractices from "../../static_data/blogs/RegenerativeAgriculturalPractices";
 import Chat from "../Chat/Chat";
 import { CardsList } from "../CardsList/CardsList";
+import Humidity from "../Humidity/Humidity";
 
 const MainRoutes = () => {
     return (
@@ -14,8 +15,10 @@ const MainRoutes = () => {
                 <Route path="agriculture-practices" element={<RegenerativeAgriculturalPractices />} />
             </Route>
             <Route path="/ai-chat" element={<Chat />} />
-            <Route path='/dashboard' element={<CardsList/>}/>
-            <Route path="*" element={<p>ERROR</p>}/>
+            <Route path='/dashboard' element={<CardsList />}>
+                <Route path="humidity" element={<Humidity />} />
+            </Route>
+            <Route path="*" element={<p>ERROR</p>} />
         </Routes>
     );
 

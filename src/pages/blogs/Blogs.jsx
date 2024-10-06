@@ -3,6 +3,10 @@ import BlogPreview from "../../components/BlogPreview/BlogPreview";
 import "./Blogs.css"
 
 const Blogs = () => {
+    const location = useLocation();
+    const isNestedRoute = location.pathname.includes('/blogs/');
+
+
     const _static_array = [
         {
             id: 1,
@@ -32,6 +36,7 @@ const Blogs = () => {
     
     ]
     return <main> <div className="blogs-wrapper">
+        {!isNestedRoute && (<>
         <h1 style={{marginBotton: '45px'}}>Blogs with tips</h1>
         <div className="blogs-search">
             <input type="text" placeholder="Find article by name" style={{marginRight: '18px', width:'600px'}}/>
@@ -41,8 +46,9 @@ const Blogs = () => {
         </div>
         {_static_array.map(({title, content_preview})=> {
             return <BlogPreview title={title} content_preview={content_preview}/>
-        })}
-        </div>  
+        })} </>)}
+        </div>
+      
         <Outlet/>
     </main>
 }

@@ -1,5 +1,6 @@
 import "./Main.css";
 import {EarthContainer} from "../../components/Earth/EarthContainer";
+import AIphoto from "../../assets/askAIphoto.jpg";
 
 export default function Main() {
     return (
@@ -58,17 +59,16 @@ export default function Main() {
                         </div>
 
                         <img className="info-box__image--medium"
-                             src="https://www.davidhechler.com/wp-content/uploads/2016/07/500x500-dummy-image.jpg"/>
-                    </div>
+                             src={AIphoto}/>
+                    </div> 
                 </div>
                 <div className="info-box ai-box">
                     <div className="info-box__header">Ask AI for advice</div>
-                    <div className="info-box__text">Need some help to understand the data better? Ask Mr. Farmer to
-                        break down information concerned you
+                    <div className="info-box__text">Need some help to understand the data better? Ask Dr. Farmer to
+                        break down information that concers you.
                     </div>
                     <div className="info-box__images">
-                        <img className="info-box__image--large"
-                             src="https://www.chapeau-melon.fr/wp-content/uploads/2017/09/800x400.png"/>
+                        <img className="info-box__image--large" src={AIphoto}/>
                     </div>
                     <div className="Blue-sphere"></div>
                 </div>

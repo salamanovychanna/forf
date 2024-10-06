@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import BlogPreview from "../../components/BlogPreview/BlogPreview";
 import "./Blogs.css"
 
@@ -47,9 +47,10 @@ const Blogs = () => {
         {_static_array.map(({title, content_preview})=> {
             return <BlogPreview title={title} content_preview={content_preview}/>
         })} </>)}
+        <Outlet/>
         </div>
       
-        <Outlet/>
+        
     </main>
 }
 

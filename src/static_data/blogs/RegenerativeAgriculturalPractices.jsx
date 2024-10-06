@@ -1,9 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import './Blogs.css';
 
 const RegenerativeAgriculturalPractices = () => {
+    const navigate = useNavigate();
     return (
         <article className='blogs-article'>
-            <div>
+            <div onClick={()=>navigate('/blogs')}>
                 <svg width="56" height="41" viewBox="0 0 56 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M56 20.5L1 20.5M1 20.5L17.9778 40M1 20.5L17.9778 0.999999" stroke="white" />
                 </svg>
@@ -13,7 +15,7 @@ const RegenerativeAgriculturalPractices = () => {
             </h2>
             <p>Regenerative agriculture, as its name suggests, is a farming concept that aims to rehabilitate soil and keep it productive for as long as possible to avoid, say, expansion to new areas at the cost of forest cuts. Soil fertility is required not only to grow crops to support human needs but also to provide forage for cattle. The more fertile the pasturelands, the more food animals have.</p>
             <p>Using a combination of traditional knowledge and digital solutions, regenerative agriculture employs a variety of methods to address the issues caused by obsolete farm management methods. Apart from maintaining the fertility of currently cultivated areas, regenerative agriculture practices embrace abandoned territories beyond farming activities or that are no longer in use. In particular, this includes reforestation, restoration of peatlands, fortification of buffer zones, ecological aquaculture, and more. These practices are an improvement over conventional agriculture, and, in the long run, they safeguard soil health, preserve biodiversity, and improve climate resilience while increasing agricultural output and profitability.</p>
-            <div style={{ borderLeft: '6px solid #0032A0', backgroundColor: '#ffdddd' }}>
+            <div style={{ borderLeft: '6px solid #0032A0', backgroundColor: '#393939', padding: '30px' }}>
                 <p>
                     <strong>
                         <em>Regenerative agriculture vs. conventional agriculture</em>
@@ -40,7 +42,7 @@ const RegenerativeAgriculturalPractices = () => {
                 <li>Precise application of biological and chemical inputs.
                 </li>
             </ul>
-            <img src="https://eos.com/wp-content/uploads/2021/01/key-regenerative-agriculture-principles.png.webp" alt="regenerative agriculture principles" />
+            <img style={{width: '100%'}} src="https://eos.com/wp-content/uploads/2021/01/key-regenerative-agriculture-principles.png.webp" alt="regenerative agriculture principles" />
             <p><em>source: https://eos.com/blog/regenerative-agriculture/</em></p>
 
 

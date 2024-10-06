@@ -11,9 +11,54 @@ export function Main() {
                 <div className="info-box">
                     <div className="info-box__header">Save your effort</div>
                     <div className="info-box__text">Easily approach to find information about humanity, precipitation, temperature, cloudiness. </div>
-                    <div className="info-box__images">
-                        <img className="info-box__image--medium" src="https://www.davidhechler.com/wp-content/uploads/2016/07/500x500-dummy-image.jpg"/>
-                        <img className="info-box__image--medium" src="https://www.davidhechler.com/wp-content/uploads/2016/07/500x500-dummy-image.jpg"/>
+                    <div className="info-box__images info-box__images--with-lines">
+                        <img className="info-box__image--medium"
+                             src="https://www.davidhechler.com/wp-content/uploads/2016/07/500x500-dummy-image.jpg"/>
+                        <div className="Line">
+                            <svg width="504" height="377" viewBox="0 0 504 377" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.875336 1C116.047 178.56 229.86 259.206 503.309 376.003" stroke="white"/>
+                            </svg>
+                        </div>
+                        <div className="Line">
+                            <svg width="504" height="377" viewBox="0 0 504 377" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.875336 1C116.047 178.56 229.86 259.206 503.309 376.003" stroke="white"/>
+                            </svg>
+                        </div>
+                        <div className="Line">
+                            <svg width="504" height="377" viewBox="0 0 504 377" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.875336 1C116.047 178.56 229.86 259.206 503.309 376.003" stroke="white"/>
+                            </svg>
+                        </div>
+                        <div className="Line">
+                            <svg width="504" height="377" viewBox="0 0 504 377" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.875336 1C116.047 178.56 229.86 259.206 503.309 376.003" stroke="white"/>
+                            </svg>
+                        </div>
+                        <div className="Line">
+                            <svg width="504" height="377" viewBox="0 0 504 377" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.875336 1C116.047 178.56 229.86 259.206 503.309 376.003" stroke="white"/>
+                            </svg>
+                        </div>
+                        <div className="Line">
+                            <svg width="504" height="377" viewBox="0 0 504 377" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.875336 1C116.047 178.56 229.86 259.206 503.309 376.003" stroke="white"/>
+                            </svg>
+                        </div>
+                        <div className="Line">
+                            <svg width="504" height="377" viewBox="0 0 504 377" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.875336 1C116.047 178.56 229.86 259.206 503.309 376.003" stroke="white"/>
+                            </svg>
+                        </div>
+
+                        <img className="info-box__image--medium"
+                             src="https://www.davidhechler.com/wp-content/uploads/2016/07/500x500-dummy-image.jpg"/>
                     </div>
                 </div>
                 <div className="info-box ai-box">

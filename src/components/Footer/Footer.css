@@ -1,0 +1,49 @@
+.Footer {
+    height: 382px;
+    background: linear-gradient(178.24deg, #000000 46.3%, #0032A0 98.69%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Logo {
+    width: 146.72px;
+    height: 34.55px;
+    color: white;
+    font-size: 36px;
+}
+
+.ContactUsTitle {
+    margin-bottom: 8px;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.52px;
+    text-align: left;
+}
+
+.ContactUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContactUsContacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+.Col {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.52px;
+    text-align: left;
+}

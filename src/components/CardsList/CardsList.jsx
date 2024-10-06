@@ -4,7 +4,6 @@ import {Card} from "./Card/Card";
 import Modal from "../Modal/Modal"
 
 export function CardsList() {
-    const [modal, setModal] = useState(false);
 
     const [cards, setCards] = useState([
         {name: 'Humidity',
@@ -51,7 +50,7 @@ export function CardsList() {
                             fill="white"/>
                     </svg>
                     <div className="CardsTitleText"><span>Chernivtsi</span> - isn’t right?</div>
-                    <span onClick={()=>setModal(true)} className="ChangeLocation">Change location</span>
+                    <Modal/>
                 </div>
                 <div className="CardsTitle--right">
                     <div className="ListDataTitle">data:</div>
@@ -61,7 +60,6 @@ export function CardsList() {
             <div className="CardsList">
                 {list}
             </div>
-            {modal &&  <Modal/>}
         </div>
     )
 

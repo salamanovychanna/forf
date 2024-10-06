@@ -57,6 +57,9 @@
 
 .ChangeLocation {
     text-decoration: underline;
+    background: none;
+    border: none;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 

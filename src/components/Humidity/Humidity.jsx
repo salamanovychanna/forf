@@ -18,7 +18,7 @@ const Humidity = () => {
                     </div>
                 </div>
                 <div style={{display: 'flex'}}><span style={{fontSize: '96px', marginRight: '30px', fontFamily: '"Orbitron", sans-serif'}}>70%</span>
-                <p style={{width: '400px'}}>*When humidity is over 65% it means it is on its the highest level. At this time lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget vestibulum neque, id venenatis lorem. Aenean faucibus nibh vitae tempus cursus.read about humadity on tips page</p></div>
+                <p style={{width: '400px'}}>When humidity levels exceed 65%, it indicates a heightened moisture content in the air, which can lead to various challenges for farmers, such as increased susceptibility to crop diseases and reduced evaporation rates. At this stage, it is essential for farmers to monitor their crops closely and consider implementing effective management practices, such as adjusting irrigation schedules and ensuring proper ventilation in greenhouses.</p></div>
                 <p>75% Relative Humidity<br/>
                     Dew Point: 17°C<br/>
                     Absolute Humidity: 12.5 g/m³<br/>
